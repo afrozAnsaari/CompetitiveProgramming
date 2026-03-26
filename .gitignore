@@ -1,4 +1,4 @@
-#Ignore all the out and exe files
+#Ignore all the out, exe and class files
 *.class
 *.exe
 *.out
@@ -6,11 +6,12 @@
 *.o
 *.obj
 
-#Ignore anybuild directories
+#Ignore anybuild directories and it contents
 bin/
 build/
 study/
 .vscode/
 
+#Ignore all the trials and demo files
 ___TRIAL___.cpp
 
