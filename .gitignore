@@ -12,6 +12,4 @@ build/
 study/
 .vscode/
 
-#Ignore all the trials and demo files
-___TRIAL___.cpp
 
