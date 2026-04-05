@@ -13,10 +13,11 @@ int main()
         for (int &i : a)
             cin >> i;
         for (int i : a)
+        {
             maxInt = max(maxInt, i);
-        for (int i : a)
             sum += i;
-        sum = sum - maxInt;
+        }
+        sum -= maxInt;
         maxInt -= sum;
         cout << maxInt << '\n';
     }
