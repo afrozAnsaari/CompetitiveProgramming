@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
+
 int main()
 {
     ios::sync_with_stdio(false);
@@ -9,16 +10,11 @@ int main()
     cin >> t;
     while (t--)
     {
-        ll res = LLONG_MIN;
-        int n;
-        cin >> n;
+        ll n, m;
+        cin >> n >> m;
         vector<ll> a(n);
         for (ll &i : a)
             cin >> i;
-        for (ll i : a)
-            for (ll j : a)
-                res = max(res, i ^ j);
-        cout << res << '\n';
     }
     return 0;
 }
